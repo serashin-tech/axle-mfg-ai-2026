@@ -466,8 +466,10 @@ const Structure: Page = () => (
 
     <Box x={100} y={630} w={296} h={146} tone="surface"><BT>공공 조달 공고</BT><BS>나라장터 등 3종</BS></Box>
     <Box x={456} y={630} w={652} h={146} tone="blue" pad="12px 24px" gap={6}>
-      <Pill>강점 2</Pill>
-      <BT color="var(--osd-accent)">AI 조건 검토</BT>
+      <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
+        <div style={{ display: 'flex' }}><Pill>강점 2</Pill></div>
+        <BT color="var(--osd-accent)">AI 조건 검토</BT>
+      </div>
       <BS color="var(--osd-text)">첨부 원문을 읽고 판정 초안과 근거를 붙임</BS>
     </Box>
 
