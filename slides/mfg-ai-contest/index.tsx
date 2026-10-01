@@ -937,19 +937,19 @@ const Milestone = ({ date, children }: { date: string; children: ReactNode }) =>
 const FieldFit: Page = () => (
   <div style={page}>
     <Header section="04" path="현장 적용성" />
-    <Title sub="자체 운영 수치는 2026년 8월 21일 기준입니다">
+    <Title sub="자체 운영 수치는 2026년 10월 1일 기준이며, AI 추천은 최근 30일을 집계했습니다">
       만든 회사가 <Em>매일 쓰고</Em>, 제조기업이 검증합니다
     </Title>
     <div style={{ position: 'absolute', left: 100, right: 100, top: 330, display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 24 }}>
-      <StatBox label="상시 사용 임직원" value="37명" />
-      <StatBox label="자동 수집·관리 입찰공고" value="87건" />
-      <StatBox label="공공 조달 자동 수집 소스" value="3개" />
+      <StatBox label="사용 임직원" value="23명" note="영업·조달·제품·R&D" />
+      <StatBox label="1인당 하루 AI 추천" value="약 20건" note="최근 30일 13,484건" />
+      <StatBox label="자동 수집·관리 공고" value="116건" note="입찰 51 · 사업 65 · 소스 3개" />
     </div>
-    <div style={{ position: 'absolute', left: 100, right: 100, top: 596, height: 364, boxSizing: 'border-box', border: `1px solid ${c.hairline}`, borderTop: '6px solid var(--osd-accent)', borderRadius: 'var(--osd-radius)', padding: '24px 40px', display: 'flex', flexDirection: 'column', gap: 18 }}>
+    <div style={{ position: 'absolute', left: 100, right: 100, top: 620, height: 340, boxSizing: 'border-box', border: `1px solid ${c.hairline}`, borderTop: '6px solid var(--osd-accent)', borderRadius: 'var(--osd-radius)', padding: '24px 40px', display: 'flex', flexDirection: 'column', gap: 18 }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: 20, flexWrap: 'wrap' }}>
-        <span style={{ fontSize: 40, fontWeight: 700, marginRight: 12 }}>검증 고객사 · 드림에이스</span>
+        <span style={{ fontSize: 40, fontWeight: 700, marginRight: 12 }}>검증 고객사</span>
         <FactChip>대구 북구 · 임직원 53명</FactChip>
-        <FactChip>완성차 OEM 차량용 컨트롤러 납품</FactChip>
+        <FactChip>차량용 컨트롤러 완성차 OEM 납품</FactChip>
         <FactChip>설비연동 키오스크 200곳 이상</FactChip>
       </div>
       <div style={{ position: 'relative', display: 'flex', marginTop: 8 }}>
@@ -1065,9 +1065,9 @@ const Business: Page = () => (
 
     <div style={{ position: 'absolute', left: 100, top: 770, fontSize: 28, fontWeight: 600, color: c.muted }}>넓혀 가는 순서</div>
     <div style={{ position: 'absolute', left: 100, right: 100, top: 816, display: 'flex', alignItems: 'center', gap: 20 }}>
-      <PathStep n="1" title="자체 운영" desc="임직원 37명 상시 사용" />
+      <PathStep n="1" title="자체 운영" desc="임직원 23명 상시 사용" />
       <span style={{ fontSize: 44, fontWeight: 700, color: 'var(--osd-accent)' }}>→</span>
-      <PathStep n="2" title="제조기업 검증" desc="드림에이스 환경에 배포" />
+      <PathStep n="2" title="제조기업 검증" desc="자동차 부품 제조기업에 배포" />
       <span style={{ fontSize: 44, fontWeight: 700, color: 'var(--osd-accent)' }}>→</span>
       <PathStep n="3" title="넓혀 가기" desc="다품종 소량 수주 B2B 제조" active />
     </div>
@@ -1275,8 +1275,8 @@ AXLE은 판단 기준 다섯 가지를 관리자 화면으로 꺼내 두었습�
   undefined,
   // 23 Field fit · 0:50
   `[50초 · 누적 16:55]
-이제 현장 적용성입니다. AXLE은 만든 저희가 먼저 쓰고 있습니다. 코드프레소 임직원 37명이 영업과 조달 업무에 매일 쓰고 있고, 공공 조달 공고 87건이 사람 손을 거치지 않고 자동으로 들어와 관리되고 있습니다.
-제조기업 검증은 드림에이스에서 하고 있습니다. 대구에 있는 임직원 53명 규모의 회사로, 완성차 OEM에 차량용 컨트롤러를 납품합니다.
+이제 현장 적용성입니다. AXLE은 만든 저희가 먼저 쓰고 있습니다. 코드프레소 임직원 23명이 영업, 조달, 제품, R&D 업무에 매일 쓰고 있습니다. 최근 30일 동안 AI가 메일과 회의록, 문서에서 기록 후보 13,484건을 자동으로 추천했습니다. 한 사람에게 하루 평균 20건 정도가 올라오는 셈입니다. 입찰공고와 사업공고 116건도 사람 손을 거치지 않고 세 곳에서 자동으로 들어와 관리되고 있습니다.
+제조기업 검증은 대구에 있는 차량 전장부품 제조기업에서 하고 있습니다. 임직원 53명 규모의 회사로, 완성차 OEM에 차량용 컨트롤러를 납품합니다.
 7월 말에 셋업하고 8월 18일부터 실제로 쓰기 시작했습니다. 그 뒤 한 달 동안 얼마나 실제 업무에 자리 잡는지 지켜봤습니다.`,
   // 24 Onboarding · 0:35
   `[35초 · 누적 17:30]
@@ -1291,7 +1291,7 @@ AXLE은 판단 기준 다섯 가지를 관리자 화면으로 꺼내 두었습�
   `[45초 · 누적 19:00]
 사업화입니다. 제조기업에게 도면, 단가, 거래처 협의 이력은 회사의 핵심 자산입니다. 외부로 나가면 안 되는 정보입니다.
 그래서 저희는 프로그램만 공급하고, 업무 데이터는 고객사 서버에 그대로 둡니다. 업무 데이터, 지식 그래프, 인증, 감사 로그가 모두 고객사 안에 있습니다.
-사업은 이 순서로 넓혀 가겠습니다. 저희가 먼저 쓰고, 드림에이스에서 검증하고, 그다음 다품종 소량 수주 구조를 가진 B2B 제조기업으로 넓혀 갈 계획입니다.`,
+사업은 이 순서로 넓혀 가겠습니다. 저희가 먼저 쓰고, 자동차 부품 제조기업에서 검증하고, 그다음 다품종 소량 수주 구조를 가진 B2B 제조기업으로 넓혀 갈 계획입니다.`,
   // 27 Closing · 0:30
   `[30초 · 누적 19:30]
 정리하겠습니다. AXLE을 쓰면 담당자가 바뀌어도 업무 내용이 그대로 이어집니다. 거래처와 왜 그 금액으로 했는지, 누가 어떤 근거로 납기를 약속했는지, 지난 입찰에서 무엇을 했는지가 남습니다.
