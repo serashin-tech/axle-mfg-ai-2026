@@ -705,7 +705,7 @@ const Mcp: Page = () => (
     <Box x={100} y={552} w={300} h={136}><BT>에이전트</BT><BS>Claude 같은 AI 챗봇</BS></Box>
     <Box x={470} y={420} w={320} h={220} tone="blue">
       <BT color="var(--osd-accent)">도구 단</BT>
-      <BS color="var(--osd-text)">MCP · REST</BS>
+      <BS color="var(--osd-text)">MCP</BS>
       <BS>사람·에이전트 공용</BS>
     </Box>
     <Box x={860} y={440} w={290} h={180}><BT>① 쓰기 요청</BT><BS>바로 저장하지 않고<br />저장할 내용부터 보여 줌</BS></Box>
