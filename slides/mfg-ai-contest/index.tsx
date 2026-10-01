@@ -948,7 +948,7 @@ const FieldFit: Page = () => (
     <div style={{ position: 'absolute', left: 100, right: 100, top: 620, height: 340, boxSizing: 'border-box', border: `1px solid ${c.hairline}`, borderTop: '6px solid var(--osd-accent)', borderRadius: 'var(--osd-radius)', padding: '24px 40px', display: 'flex', flexDirection: 'column', gap: 18 }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: 20, flexWrap: 'wrap' }}>
         <span style={{ fontSize: 40, fontWeight: 700, marginRight: 12 }}>검증 고객사</span>
-        <FactChip>대구 북구 · 임직원 53명</FactChip>
+        <FactChip>대구 북구</FactChip>
         <FactChip>차량용 컨트롤러 완성차 OEM 납품</FactChip>
       </div>
       <div style={{ position: 'relative', display: 'flex', marginTop: 8 }}>
@@ -1275,7 +1275,7 @@ AXLE은 판단 기준 다섯 가지를 관리자 화면으로 꺼내 두었습�
   // 23 Field fit · 0:50
   `[50초 · 누적 16:55]
 이제 현장 적용성입니다. AXLE은 만든 저희가 먼저 쓰고 있습니다. 코드프레소 임직원 23명이 영업, 운영, 제품, R&D 업무에 매일 쓰고 있습니다. 최근 30일 동안 AI가 메일과 회의록, 문서에서 기록 후보 13,484건을 자동으로 추천했습니다. 한 사람에게 하루 평균 20건 정도가 올라오는 셈입니다. 입찰공고와 사업공고 116건도 사람 손을 거치지 않고 세 곳에서 자동으로 들어와 관리되고 있습니다.
-제조기업 검증은 대구에 있는 차량 전장부품 제조기업에서 하고 있습니다. 임직원 53명 규모의 회사로, 완성차 OEM에 차량용 컨트롤러를 납품합니다.
+제조기업 검증은 대구에 있는 차량 전장부품 제조기업에서 하고 있습니다. 완성차 OEM에 차량용 컨트롤러를 납품하는 회사입니다.
 7월 말에 셋업하고 8월 18일부터 실제로 쓰기 시작했습니다. 현재 실무자 7명이 CRM에 직접 입력하며 쓰고 있습니다.`,
   // 24 Onboarding · 0:35
   `[35초 · 누적 17:30]
