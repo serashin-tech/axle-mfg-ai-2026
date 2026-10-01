@@ -941,7 +941,7 @@ const FieldFit: Page = () => (
       만든 회사가 <Em>매일 쓰고</Em>, 제조기업이 검증합니다
     </Title>
     <div style={{ position: 'absolute', left: 100, right: 100, top: 330, display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 24 }}>
-      <StatBox label="사용 임직원" value="23명" note="영업·운영·제품·R&D" />
+      <StatBox label="현재 활성 사용자" value="23명" note="영업·운영·제품·R&D" />
       <StatBox label="1인당 하루 AI 추천" value="약 20건" note="최근 30일 13,484건" />
       <StatBox label="자동 수집·관리 공고" value="116건" note="입찰 51 · 사업 65 · 소스 3개" />
     </div>
