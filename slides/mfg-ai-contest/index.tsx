@@ -950,7 +950,6 @@ const FieldFit: Page = () => (
         <span style={{ fontSize: 40, fontWeight: 700, marginRight: 12 }}>검증 고객사</span>
         <FactChip>대구 북구 · 임직원 53명</FactChip>
         <FactChip>차량용 컨트롤러 완성차 OEM 납품</FactChip>
-        <FactChip>설비연동 키오스크 200곳 이상</FactChip>
       </div>
       <div style={{ position: 'relative', display: 'flex', marginTop: 8 }}>
         <div style={{ position: 'absolute', left: '16%', right: '16%', top: 13, height: 3, background: c.hairline }} />
