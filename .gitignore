@@ -3,12 +3,12 @@ dist
 .DS_Store
 
 # 슬라이드에서 쓰지 않는 원본 캡처(이메일·서버 주소 노출) — 공개 저장소에 올리지 않음
-slides/axle-mfg-ai-2026/assets/admin-prompt.jpg
-slides/axle-mfg-ai-2026/assets/bids-list.jpg
-slides/axle-mfg-ai-2026/assets/claude-mytasks.png
-slides/axle-mfg-ai-2026/assets/profile-mcp.jpg
-slides/axle-mfg-ai-2026/assets/profile-mcp-crop.jpg
-slides/axle-mfg-ai-2026/assets/rec-card.jpg
+slides/mfg-ai-contest/assets/admin-prompt.jpg
+slides/mfg-ai-contest/assets/bids-list.jpg
+slides/mfg-ai-contest/assets/claude-mytasks.png
+slides/mfg-ai-contest/assets/profile-mcp.jpg
+slides/mfg-ai-contest/assets/profile-mcp-crop.jpg
+slides/mfg-ai-contest/assets/rec-card.jpg
 .vercel
 
 .vercel

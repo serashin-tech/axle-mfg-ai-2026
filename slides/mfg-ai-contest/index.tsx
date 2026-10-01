@@ -43,7 +43,7 @@ const c = {
 
 const FONT_HREF =
   'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap';
-const FONT_LINK_ID = 'osd-webfont-axle-mfg-ai-2026';
+const FONT_LINK_ID = 'osd-webfont-mfg-ai-contest';
 if (typeof document !== 'undefined') {
   let link = document.getElementById(FONT_LINK_ID) as HTMLLinkElement | null;
   if (!link) {

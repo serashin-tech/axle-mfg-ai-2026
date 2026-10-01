@@ -1,5 +1,9 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
+  "redirects": [
+    { "source": "/s/axle-mfg-ai-2026", "destination": "/s/mfg-ai-contest", "permanent": false },
+    { "source": "/s/axle-mfg-ai-2026/:path*", "destination": "/s/mfg-ai-contest/:path*", "permanent": false }
+  ],
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
